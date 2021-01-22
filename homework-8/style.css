@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+body {
+    min-width: 1100px;
+    min-height: 600px;
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    font-family: 'Baloo Bhaina 2', sans-serif;
+    overflow: hidden;
+}
+
+.nav-sidebar {
+    background-color: #000;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 132px;
+    height: 853px;
+    margin-left: 32px;
+    margin-top: 24px;
+    color: #fff;
+    box-shadow: 2px 5px 16px 0px #000;
+    margin-right: 71px;
+}
+
+.nav-menu {
+    margin: 40px auto;
+    text-align: center;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-menu-top {
+    height: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo-title {
+    margin-bottom: 40px;
+}
+
+.main-container {
+    display: flex;
+    margin-top: 55px;
+    margin-right: 67px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.background {
+    background: #F5F5F7;
+    border-radius: 14px;
+}
+
+.hello {
+    display: flex;
+    justify-content: space-between;
+    height: 18%;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.hello-article {
+    margin: auto 32px;
+}
+
+.hello-title {
+    font-size: 36px;
+    line-height: 57px;
+    font-weight: bold;
+}
+
+.hello-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.hello-photo {
+    margin-right: 105px;
+    display: flex;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    margin-left: 60px;
+}
+
+.main-info {
+    width: 55%;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+.progress {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 24px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress-item {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.progress-user, .progress-request {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    background: #fff;
+    border-radius: 12px;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons {
+    margin-right: 24px;
+}
+
+.article {
+    margin-right: 45px;
+}
+
+.article p {
+    margin-bottom: 10px;
+}
+
+.progress-request {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.progress-request p {
+    margin-left: -76%;
+    margin-top: 5px;
+}
+
+.btn {
+    background-color: #000;
+    border-radius: 8px;
+    color: #fff;
+    width: 120px;
+    height: 40px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.lists {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.lists h3:not(:first-child) {
+    opacity: 30%;
+}
+
+.progress-list .progress-item {
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.progress-list button {
+    margin-right: 20px;
+}
+
+.progress-item-course {
+    max-width: 626px;
+}
+
+.course-detail {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.course-detail p, time {
+    margin-left: 10px;
+}
+
+.course-detail img {
+    margin-bottom: 5px;
+}
+
+.progress-photography {
+    margin-right: -17px;
+}
+
+.progress-instagram {
+    margin-right: 2px;
+}
+
+.progress-drawing {
+    margin-right: 3px;
+}
+
+.progress-photoshop {
+    margin-right: -18px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    max-width: 300px;
+    width: 75%;
+    padding: 20px;
+}
+
+.search-form input {
+    background: rgba(245, 245, 247, 1);
+}
