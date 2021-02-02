@@ -10,8 +10,6 @@ body {
     min-height: 600px;
     display: flex;
     width: 100%;
-    max-width: 1440px;
-    height: 900px;
     font-family: 'Baloo Bhaina 2', sans-serif;
     overflow: hidden;
     margin: 0 auto;
@@ -25,14 +23,13 @@ a {
 .nav-sidebar {
     background-color: #000;
     border-radius: 24px;
-    width: 100%;
-    max-width: 132px;
+    width: 11%;
     min-width: 100px;
     height: 853px;
     margin-left: 32px;
     margin-top: 24px;
     color: #fff;
-    box-shadow: 2px 5px 16px 0px #000;
+    box-shadow: 2px 5px 16px 0 #000;
     margin-right: 71px;
 }
 
@@ -149,7 +146,7 @@ p {
 .icons {
     background: #fff;
     border-radius: 12px;
-    width: 64px;
+    width: 33%;
     height: 64px;
     margin: 8px;
     display: flex;
@@ -169,7 +166,7 @@ p {
 }
 
 .progress-request {
-    width: 40px;
+    width: 8.5%;
     height: 40px;
     margin-right: 40px;
 }
@@ -213,7 +210,7 @@ h2 {
 }
 
 .progress-item-course {
-    max-width: 626px;
+    max-width: 100%;
 }
 
 .course-detail {
@@ -231,19 +228,19 @@ h2 {
 }
 
 .progress-photography {
-    margin-right: -17px;
+    margin-right: -25px;
 }
 
 .progress-instagram {
-    margin-right: 2px;
+    margin-right: -5.5px;
 }
 
 .progress-drawing {
-    margin-right: 3px;
+    margin-right: -5px;
 }
 
 .progress-photoshop {
-    margin-right: -18px;
+    margin-right: -27px;
 }
 
 .search {
@@ -257,8 +254,7 @@ h2 {
     display: flex;
     align-items: center;
     height: 40px;
-    max-width: 300px;
-    width: 75%;
+    width: 70%;
     padding: 20px;
 }
 
@@ -278,7 +274,7 @@ h2 {
     justify-content: space-around;
     align-items: center;
     background: rgba(245, 245, 247, 1);
-    width: 210px;
+    width: 45%;
     height: 96px;
     border-radius: 14px;
 }
@@ -319,7 +315,7 @@ h2 {
     font-weight: 700;
     background-color: rgba(245, 245, 247, 1);
     border-radius: 14px;
-    width: 88px;
+    width: 20%;
     height: 32px;
 }
 
