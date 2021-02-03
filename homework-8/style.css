@@ -23,7 +23,7 @@ a {
 .nav-sidebar {
     background-color: #000;
     border-radius: 24px;
-    width: 11%;
+    width: 8%;
     min-width: 100px;
     height: 853px;
     margin-left: 32px;
@@ -97,14 +97,13 @@ a {
 }
 
 .info {
-    width: 100%;
+    width: 40%;
     height: 100%;
-    max-width: 450px;
     margin-left: 60px;
 }
 
 .main-info {
-    width: 55%;
+    width: 54%;
     min-width: 600px;
 }
 
@@ -139,14 +138,15 @@ p {
 
 .progress-user, .progress-request {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    width: 43%;
 }
 
 .icons {
     background: #fff;
     border-radius: 12px;
-    width: 33%;
+    width: 26%;
     height: 64px;
     margin: 8px;
     display: flex;
@@ -157,10 +157,6 @@ p {
     margin-right: 24px;
 }
 
-.article {
-    margin-right: 45px;
-}
-
 .article p {
     margin-bottom: 10px;
 }
@@ -169,6 +165,7 @@ p {
     width: 8.5%;
     height: 40px;
     margin-right: 40px;
+    margin-left: 60px;
 }
 
 .progress-request p {
@@ -225,22 +222,6 @@ h2 {
 
 .course-detail img {
     margin-bottom: 5px;
-}
-
-.progress-photography {
-    margin-right: -25px;
-}
-
-.progress-instagram {
-    margin-right: -5.5px;
-}
-
-.progress-drawing {
-    margin-right: -5px;
-}
-
-.progress-photoshop {
-    margin-right: -27px;
 }
 
 .search {
